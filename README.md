@@ -23,7 +23,7 @@ docker-compose down -v
 ```
 
 ### Test the application (API)
-We can use `curl` to make requests to our API. We have only one endpoint `/universities`.
+We can use `curl` to make requests to our API. There is one endpoint `/universities`, so let's test that out.
 
 ```curl
 curl localhost:5000/universities?country=Germany
@@ -31,6 +31,3 @@ curl localhost:5000/universities?country=Germany
 
 ### License
 This project is licensed under the terms of the MIT license.
-
-
-
