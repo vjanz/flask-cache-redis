@@ -8,6 +8,7 @@ services:
       - .env
     ports:
       - '5000:5000'
+
   redis:
     image: redis
     container_name: redis-container
